@@ -1,0 +1,40 @@
+.hr{
+    width: 80%;
+    margin-top: 10.5rem ;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    margin-top:1rem;
+    
+
+    &-logo{
+        svg{
+            color: #494b4f;
+        }
+        span{
+            color: #494b4f;
+        }
+    }
+
+    &-links {
+        margin-bottom: 2rem;
+        ul {
+            display: flex;
+            gap: 40px;
+            margin-left: 60px;
+         
+
+            a{
+                color:blue;
+                
+            }
+        }
+    }
+}
